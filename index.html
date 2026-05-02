@@ -1,210 +1,354 @@
 <!DOCTYPE html>
-<!-- Website - www.codingnepalweb.com -->
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Portfolio-vinaysen</title>
-    <link rel="stylesheet" href="style.css" />
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <!-- Move to up button -->
-    <div class="scroll-button">
-      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+<head>
+  <meta charset="UTF-8" />
+  <title>Vinay Sen — Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+
+  <!-- Scroll to top -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+
+  <!-- Dark mode toggle -->
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+    <i class="fas fa-moon" id="themeIcon"></i>
+  </button>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="navbar">
+      <div class="logo"><a href="#home">Vinaymiles<span>.Dev</span></a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn"><i class="fas fa-times"></i></div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://www.facebook.com/vinaymiles" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <!--  <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>  -->
+        <a href="https://www.instagram.com/vinaymiles" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/vinaysen/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/vinayMsen   " target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      </div>
     </div>
-    <!-- navgaition menu -->
-    <nav>
-      <div class="navbar">
-        <div class="logo"><a href="#">Portfolio.</a></div>
-        <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#services">Prjects</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <div class="cancel-btn">
-            <i class="fas fa-times"></i>
-          </div>
-        </ul>
-        <div class="media-icons">
-          <a href=""><i class="fab fa-facebook-f"></i></a>
-          <a href=""><i class="fab fa-twitter"></i></a>
-          <a href=""><i class="fab fa-instagram"></i></a>
-          <a href=""><i class="fab fa-linkedin"></i></a>
-        </div>
-      </div>
-      <div class="menu-btn">
-        <i class="fas fa-bars"></i>
-      </div>
-    </nav>
+    <div class="menu-btn"><i class="fas fa-bars"></i></div>
+  </nav>
 
-    <!-- Home Section Start -->
-    <section class="home" id="home">
-      <div class="home-content">
-        <div class="text">
-          <div class="text-one">Hello,</div>
-          <div class="text-two">I'm Vinay Sen</div>
-          <div class="text-three">Front-End Developer</div>
-          <div class="text-four">From MadhyaPradesh</div>
-        </div>
-        <div class="button">
-          <button>Hire Me</button>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section Start -->
-    <section class="about" id="about">
-      <div class="content">
-        <div class="title"><span>About Me</span></div>
-        <div class="about-details">
-          <div class="left">
-            <img src="vinay.jpg" alt="" />
-          </div>
-          <div class="right">
-            <div class="topic">Designing & Coding</div>
-            <p>
-             I am <span>Vinay Sen</span>. Currently Final Year student at <span><a href="https://www.juet.ac.in/">Jaypee University Guna</a></span>. I am a front-end Developer with Skills
-             in HTML5,CSS3 and JavaScript. I love to creating landing Pages and doing competitive programming in various coding plateforms like 
-             <a href="https://www.codechef.com/users/vinaymiles">codechef</a> , <a href="https://codeforces.com/profile/MilesOP0_07">Codeforces</a>
-              and <a href="https://leetcode.com/u/Vinaymiles/">LeetCode</a>. I am consistant about my coding journey and don't want to stop 
-             it. I have huge passion for shifting my whole system into linux enviornment so I started learning Linux system.Currently I started exploring
-             other dimensions of coding such as graphics using scratch using openGL and various technologies.
-            </p>
-            <div class="button">
-              <button>Download CV</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- My Skill Section Start -->
-    <!-- Section Tag and Other Div will same where we need to put same CSS -->
-    <section class="skills" id="skills">
-      <div class="content">
-        <div class="title"><span>My Skills</span></div>
-        <div class="skills-details">
-          <div class="text">
-            <div class="topic">Skills Reflects Our Knowledge</div>
-            <p>
-                If you want to work with me here are my relevent skills and their experience. If you want to connect with me please do use the link 
-            provided in the header section. I will be glad to connect and to contribute .  
-               </p>
-            <div class="experience">
-              <div class="num">2+1</div>
-              <div class="exp">
-                Projects with  Personal and Group <br />
-              </div>
-            </div>
-          </div>
-          <div class="boxes">
-            <div class="box">
-              <div class="topic">HTML</div>
-              <div class="per">70%</div>
-            </div>
-            <div class="box">
-              <div class="topic">CSS</div>
-              <div class="per">70%</div>
-            </div>
-            <div class="box">
-              <div class="topic">JavScript</div>
-              <div class="per">40%</div>
-            </div>
-            <div class="box">
-              <div class="topic">MySQL</div>
-              <div class="per">60%</div>
-            </div>
-            <div class="box">
-                <div class="topic">Linux</div>
-                <div class="per">20%</div>
-              </div>
-              <div class="box">
-                <div class="topic">C++</div>
-                <div class="per">50%</div>
-              </div>
-              <div class="box">
-                <div class="topic">Version Control</div>
-                <div class="per">20%</div>
-              </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- My Services Section Start -->
-    <section class="services" id="services">
-      <div class="content">
-        <div class="title"><span>My Projects</span></div>
-        <div class="boxes">
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-desktop"></i>
-            </div>
-            <div class="topic">Web Devlopment</div>
-            <p>A clone website for our college with different UI and Credentials. A testing for our Knowledge</p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-paint-brush"></i>
-            </div>
-            <div class="topic">Web Development</div>
-            <p>A Quizz Website for our University to conduct Quizzes online and store the marks accordingly batchvise. Easy to host
-                 just by uploading question from Excel stylesheet
-                </p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-chart-line"></i>
-            </div>
-            <div class="topic">Web Development</div>
-            <p>Personal Portfolio Website to showcase my skills by projects and opensourse contribution</p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fab fa-android"></i>
-            </div>
-            <div class="topic">C++ GPA Calculator</div>
-            <p>A practice prject in C++ for CGPA calculation.</p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-camera-retro"></i>
-            </div>
-            <div class="topic">Minor Web-D</div>
-            <p>A Github Portfolio where you can find easy examples of JavaScript Document Object model and related practice project.</p>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Me section Start -->
-    <section class="contact" id="contact">
-      <div class="content">
-        <div class="title"><span>Contact Me</span></div>
-        <div class="text">
-          <div class="topic">Have Any Project?</div>
-          <p>
-            Do contact me if you need a front-end developer for your Major, Minor or personal project it will be great to
-            collab with you.
-          </p>
-          <div class="button">
-            <a href="chat.html"><button>Let's Chat</button></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer Section Start -->
-    <footer>
+  <!-- ===== HOME ===== -->
+  <section class="home" id="home">
+    <div class="home-bg-grid"></div>
+    <div class="home-content">
+      <div class="home-tag">Available for hire</div>
       <div class="text">
-        <span>Created By <a href="#">Vinaymiles</a> | &#169; 2024 All Rights Reserved</span>
+        <div class="text-one">Hello, I'm</div>
+        <div class="text-two">Vinay Sen</div>
+        <div class="text-three"><span class="typed-text"></span><span class="cursor">|</span></div>
+        <div class="text-four"><i class="fas fa-map-marker-alt"></i> Madhya Pradesh, India</div>
       </div>
-    </footer>
+      <div class="home-actions">
+        <a href="Chat/index.html" class="btn btn-primary">Hire Me <i class="fas fa-arrow-right"></i></a>
+        <a href="#projects" class="btn btn-outline">View Projects</a>
+      </div>
+      <div class="home-stats">
+        <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Projects</span></div>
+        <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Years Learning</span></div>
+        <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Technologies</span></div>
+      </div>
+    </div>
+    <div class="home-visual">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <span class="avatar-initials">VS</span>
+        </div>
+        <div class="orbit orbit-1"><span class="orbit-dot"><i class="fab fa-html5"></i></span></div>
+        <div class="orbit orbit-2"><span class="orbit-dot"><i class="fab fa-css3-alt"></i></span></div>
+        <div class="orbit orbit-3"><span class="orbit-dot"><i class="fab fa-js"></i></span></div>
+      </div>
+    </div>
+    <div class="scroll-hint"><span>Scroll Down</span><i class="fas fa-chevron-down"></i></div>
+  </section>
 
-    <script src="script.js"></script>
-  </body>
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="section-header">
+        <span class="section-label">01 / About</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I am <strong>Vinay Sen</strong>, a Computer Science graduate from <a href="https://www.juet.ac.in/" target="_blank">Jaypee University of Engineering & Technology, Guna</a>.</p>
+          <p>I'm a passionate <strong>Front-End Developer</strong> and <strong>ASP .NET Core Developer</strong>, consistently growing my coding skills. I have a deep interest in shifting to a Linux-first development environment and currently sharpening my skills in intermediate <strong>.NET development</strong> and <strong>API design</strong>.</p>
+          <p>I love building things that live on the internet — from clean, accessible UIs to robust backend APIs.</p>
+          <div class="about-details-list">
+            <div class="detail-item"><i class="fas fa-graduation-cap"></i><span>B.Tech CS — JUET Guna</span></div>
+            <div class="detail-item"><i class="fas fa-map-marker-alt"></i><span>Madhya Pradesh, India</span></div>
+            <div class="detail-item"><i class="fas fa-envelope"></i><span>vinayak77206@gmail.com</span></div>
+            <div class="detail-item"><i class="fab fa-github"></i><a href="https://github.com/vinaymiles" target="_blank">github.com/vinaymiles</a></div>
+          </div>
+          <a href="VinayS.pdf" download="VinayS.pdf" class="btn btn-primary download-btn">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+        <div class="about-code-card">
+          <div class="code-window">
+            <div class="code-titlebar">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+              <span class="code-filename">vinay.json</span>
+            </div>
+            <pre class="code-body"><code>{
+  <span class="key">"name"</span>: <span class="str">"Vinay Sen"</span>,
+  <span class="key">"role"</span>: <span class="str">"Full-Stack Dev"</span>,
+  <span class="key">"location"</span>: <span class="str">"MP, India"</span>,
+  <span class="key">"stack"</span>: [
+  <span class="str">"C++"</span>
+    <span class="str">"HTML"</span>, <span class="str">"CSS"</span>,
+    <span class="str">"JavaScript"</span>,
+    <span class="str">"C# / .NET"</span>,
+    <span class="str">"MySQL"</span>
+  ],
+  <span class="key">"learning"</span>: [
+    <span class="str">"Linux"</span>,
+    <span class="str">"REST APIs"</span>
+  ],
+  <span class="key">"available"</span>: <span class="bool">true</span>
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="section-header">
+        <span class="section-label">02 / Skills</span>
+        <h2 class="section-title">What I Work With</h2>
+      </div>
+      <p class="skills-intro">Here's a snapshot of my technical skills. I'm always learning and adding to this list.</p>
+      <div class="skills-grid">
+        <div class="skill-card" data-level="70">
+          <div class="skill-icon"><i class="fab fa-html5"></i></div>
+          <div class="skill-info">
+            <span class="skill-name">HTML5</span>
+            <div class="skill-bar"><div class="skill-fill" style="--target:70%"></div></div>
+            <span class="skill-pct">70%</span>
+          </div>
+        </div>
+        <div class="skill-card" data-level="70">
+          <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+          <div class="skill-info">
+            <span class="skill-name">CSS3</span>
+            <div class="skill-bar"><div class="skill-fill" style="--target:70%"></div></div>
+            <span class="skill-pct">70%</span>
+          </div>
+        </div>
+        <div class="skill-card" data-level="40">
+          <div class="skill-icon"><i class="fab fa-js"></i></div>
+          <div class="skill-info">
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-bar"><div class="skill-fill" style="--target:40%"></div></div>
+            <span class="skill-pct">40%</span>
+          </div>
+        </div>
+        <div class="skill-card" data-level="70">
+          <div class="skill-icon"><i class="fas fa-code"></i></div>
+          <div class="skill-info">
+            <span class="skill-name">C# / .NET</span>
+            <div class="skill-bar"><div class="skill-fill" style="--target:70%"></div></div>
+            <span class="skill-pct">70%</span>
+          </div>
+        </div>
+        <div class="skill-card" data-level="60">
+          <div class="skill-icon"><i class="fas fa-database"></i></div>
+          <div class="skill-info">
+            <span class="skill-name">MySQL</span>
+            <div class="skill-bar"><div class="skill-fill" style="--target:60%"></div></div>
+            <span class="skill-pct">55%</span>
+          </div>
+        </div>
+        <div class="skill-card" data-level="50">
+          <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+          <div class="skill-info">
+            <span class="skill-name">C++</span>
+            <div class="skill-bar"><div class="skill-fill" style="--target:50%"></div></div>
+            <span class="skill-pct">50%</span>
+          </div>
+        </div>
+        <div class="skill-card" data-level="20">
+          <div class="skill-icon"><i class="fab fa-linux"></i></div>
+          <div class="skill-info">
+            <span class="skill-name">Linux</span>
+            <div class="skill-bar"><div class="skill-fill" style="--target:20%"></div></div>
+            <span class="skill-pct">25%</span>
+          </div>
+        </div>
+        <div class="skill-card" data-level="20">
+          <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+          <div class="skill-info">
+            <span class="skill-name">Git / Version Control</span>
+            <div class="skill-bar"><div class="skill-fill" style="--target:20%"></div></div>
+            <span class="skill-pct">20%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects" id="projects">
+    <div class="content">
+      <div class="section-header">
+        <span class="section-label">03 / Projects</span>
+        <h2 class="section-title">Things I've Built</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card">
+            <div class="project-num">01</div>
+            <div class="project-icon"><i class="fas fa-university"></i></div>
+            <h3>College Clone Website</h3>
+            <p>A clone of our college website with a redesigned UI and custom authentication credentials.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="https://github.com/vinayMsen" target="_blank" class="project-link">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-num">02</div>
+            <div class="project-icon"><i class="fas fa-question-circle"></i></div>
+            <h3>University Quiz Platform</h3>
+            <p>A quiz system for conducting online university exams — stores marks batch-wise and lets faculty upload questions from Excel.</p>
+            <div class="project-tags"><span>HTML5</span><span>CSS</span><span>JS</span></div>
+        </div>
+
+        <div class="project-card featured">
+            <div class="project-num">03</div>
+            <div class="project-icon"><i class="fas fa-user-circle"></i></div>
+            <h3>Portfolio Website</h3>
+            <p>This portfolio — built to showcase my skills, projects, and open-source contributions.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="https://github.com/vinayMsen" target="_blank" class="project-link">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-num">04</div>
+            <div class="project-icon"><i class="fas fa-calculator"></i></div>
+            <h3>C++ GPA Calculator</h3>
+            <p>A command-line CGPA calculator built in C++ to solidify language fundamentals.</p>
+            <div class="project-tags"><span>C++</span><span>OOPs</span></div>
+            <a href="https://github.com/vinayMsen" target="_blank" class="project-link">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-num">05</div>
+            <div class="project-icon"><i class="fab fa-github"></i></div>
+            <h3>DOM Practice Portfolio</h3>
+            <p>A GitHub-hosted collection of JavaScript DOM manipulation examples and mini-projects.</p>
+            <div class="project-tags"><span>JavaScript</span><span>DOM</span><span>GitHub</span></div>
+            <a href="https://github.com/vinayMsen" target="_blank" class="project-link">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-num">06</div>
+            <div class="project-icon"><i class="fab fa-github"></i></div>
+            <h3>Coming Soon</h3>
+            <p>Upcoming MVC Application.</p>
+            <div class="project-tags"><span>ASP.NET Core</span><span>C#</span><span>SQL Server</span></div>
+            <a href="https://github.com/vinayMsen" target="_blank" class="project-link">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+        </div>
+
+     </div>  
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="section-header">
+        <span class="section-label">04 / Contact</span>
+        <h2 class="section-title">Let's Work Together</h2>
+      </div>
+      <p class="contact-intro">Have a project in mind? I'd love to collaborate. Drop me a message or use the chat below.</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <span>Email</span>
+              <a href="mailto:vinayak77206@gmail.com">Email Me</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <i class="fab fa-linkedin"></i>
+            <div>
+              <span>LinkedIn</span>
+              <a href="https://www.linkedin.com/in/vinaysen/" target="_blank">linkedin/VinaySen</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <i class="fab fa-github"></i>
+            <div>
+              <span>GitHub</span>
+              <a href="https://github.com/vinayMsen" target="_blank">vinayMsen</a>
+            </div>
+          </div>
+          <a href="Chat/index.html" class="btn btn-primary full-btn">
+            <i class="fas fa-comments"></i> Open Chat
+          </a>
+        </div>
+        <!-- Inline quick contact form -->
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Miles Moraless" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="miles@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Project Inquiry" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-btn">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">Vinaymiles<span>.Dev</span></div>
+      <div class="footer-links">
+        <a href="https://github.com/vinayMsen" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/vinaysen" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://instagram.com/vinaymiles" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:vinayak77206@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p>© 2024 Vinay Sen. Crafted with <i class="fas fa-heart" style="color:#e74c3c"></i> in MP, India.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>

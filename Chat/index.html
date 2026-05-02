@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat with Vinay — Vinaymiles.Dev</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+<body>
+  <div class="top-bar">
+    <div class="logo">Vinaymiles<span>.Dev</span></div>
+    <a href="../index.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Portfolio</a>
+  </div>
+
+  <div class="chat-page">
+    <h1>Let's <span>Connect</span></h1>
+    <p class="subtitle">
+      Looking for a front-end or .NET developer for your project? I'm available for freelance,
+      internships, and collaborations. Reach out through any of the methods below.
+    </p>
+
+    <div class="contact-methods">
+      <a href="mailto:vinaysen@email.com" class="method-card">
+        <div class="method-icon"><i class="fas fa-envelope"></i></div>
+        <div class="method-text">
+          <span class="method-label">Email</span>
+          <span class="method-value">vinaysen@email.com</span>
+        </div>
+      </a>
+      <a href="https://linkedin.com/in/vinay-sen" target="_blank" class="method-card">
+        <div class="method-icon"><i class="fab fa-linkedin"></i></div>
+        <div class="method-text">
+          <span class="method-label">LinkedIn</span>
+          <span class="method-value">Vinay Sen</span>
+        </div>
+      </a>
+      <a href="https://github.com/vinaymiles" target="_blank" class="method-card">
+        <div class="method-icon"><i class="fab fa-github"></i></div>
+        <div class="method-text">
+          <span class="method-label">GitHub</span>
+          <span class="method-value">vinaymiles</span>
+        </div>
+      </a>
+      <a href="https://instagram.com" target="_blank" class="method-card">
+        <div class="method-icon"><i class="fab fa-instagram"></i></div>
+        <div class="method-text">
+          <span class="method-label">Instagram</span>
+          <span class="method-value">@vinaymiles</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="divider">or send a message directly</div>
+
+    <div class="form-card">
+      <h2><i class="fas fa-paper-plane" style="color:var(--accent);margin-right:10px"></i>Send Me a Message</h2>
+      <form id="chatForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">Your Name *</label>
+            <input type="text" id="fname" placeholder="Ravi Sharma" required />
+          </div>
+          <div class="form-group">
+            <label for="femail">Email Address *</label>
+            <input type="email" id="femail" placeholder="ravi@example.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="ftype">Type of Inquiry</label>
+          <select id="ftype">
+            <option value="">Select one…</option>
+            <option value="freelance">Freelance Project</option>
+            <option value="collab">Collaboration / Team Project</option>
+            <option value="internship">Internship Opportunity</option>
+            <option value="opensource">Open Source</option>
+            <option value="other">Just Saying Hi 👋</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="fsubject">Subject *</label>
+          <input type="text" id="fsubject" placeholder="What's this about?" required />
+        </div>
+        <div class="form-group">
+          <label for="fmsg">Your Message *</label>
+          <textarea id="fmsg" rows="5" placeholder="Tell me about your project, idea, or just say hello…" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn" id="submitBtn">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+        <div class="success-banner" id="successBanner">
+          <i class="fas fa-check-circle"></i>
+          Your message has been sent! I'll reply within 24 hours.
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+   <script src="script.js"></script>
+
+
+</body>
+</html>
